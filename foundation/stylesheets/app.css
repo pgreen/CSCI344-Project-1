@@ -12,13 +12,20 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-h2 { 
+h1 { 
   color: #ff0000;
   font-style: italic;
 }
 .button {
   margin-top: 10px;
+  color: #fff;
 }
+
+img {
+  height: 300px;
+  padding: 60px;
+}
+
 
 /* -----------------------------------------
    Page Name 1
