@@ -21,9 +21,17 @@ h1 {
   color: #fff;
 }
 
+.button.success {
+background-color: #c3f;
+border: 1px solid #396516;
+}
 img {
   height: 300px;
   padding: 60px;
+}
+
+.panel {
+background: #c3f;
 }
 
 
