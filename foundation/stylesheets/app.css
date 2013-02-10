@@ -17,7 +17,9 @@ header {
 }
 h1 { 
   color: #081472;
+  font-family: Ubuntu;
   font-style: italic;
+  font-size: 48px;
   margin-top: 0;
   margin-left: 30px;
 }
@@ -34,7 +36,10 @@ h1 {
 }
 
 h3 {
+  font-family: Ubuntu;
+  font-size: 32px;
   color: #081472;
+  margin-left: 30px;
 }
 .panel {
   background: #717dd7;
@@ -42,6 +47,7 @@ h3 {
 }
 
 p {
+  font-family: Rufina;
   color: #081472;
 }
 
