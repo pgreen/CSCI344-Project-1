@@ -12,26 +12,37 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-h1 { 
-  color: #ff0000;
-  font-style: italic;
+header {
+  margin:10px;
 }
-.button {
-  margin-top: 10px;
-  color: #fff;
+h1 { 
+  color: #081472;
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 30px;
 }
 
 .button.success {
-background-color: #c3f;
-border: 1px solid #396516;
+  background-color: #717dd7;
+  border: 1px solid #081472;
+  margin-top:10px;
 }
-img {
+
+#featured img { 
   height: 300px;
   padding: 60px;
 }
 
+h3 {
+  color: #081472;
+}
 .panel {
-background: #c3f;
+  background: #717dd7;
+  border: 1px solid #081472;
+}
+
+p {
+  color: #081472;
 }
 
 
