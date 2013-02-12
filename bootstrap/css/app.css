@@ -1,0 +1,88 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+header {
+  margin:10px;
+}
+
+h1 { 
+  color: #081472;
+  font-family: Ubuntu;
+  font-style: italic;
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.button.success {
+  background-color: #717dd7;
+  border: 1px solid #081472;
+  margin-top:10px;
+}
+
+#featured img {
+  height: 350px;
+  width: 350px;
+  padding: 50px;
+}
+
+h3 {
+  font-family: Ubuntu;
+  font-size: 32px;
+  color: #081472;
+}
+
+h4{
+  font-family: Ubuntu;
+  color: #081472;
+  padding-left: 30px;
+}
+.lyrics h5 {
+  font-family: Rufina;
+  font-type: normal;
+  font-style: italic;
+  color: #081472;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.panel {
+  background: #717dd7;
+  border: 1px solid #081472;
+}
+.span12{
+  margin-top: 0;
+  padding-left: 90px;
+}
+
+p {
+  font-family: Rufina;
+  color: #081472;
+}
+.contact a {
+  padding: 30px;
+}
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
