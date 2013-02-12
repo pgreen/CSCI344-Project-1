@@ -108,6 +108,14 @@ span4 offset2 {
   padding: 15px;
 }
 
+.panel-about {
+  background: #717dd7;
+  border: 1px solid #081472;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
 p {
   font-family: Rufina;
   color: #081472;
