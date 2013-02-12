@@ -30,25 +30,46 @@ h1 {
   margin-top:10px;
 }
 
-#featured img { 
-  height: 300px;
-  padding: 60px;
+#featured img {
+  height: 350px;
+  width: 350px;
+  padding: 50px;
 }
 
 h3 {
   font-family: Ubuntu;
   font-size: 32px;
   color: #081472;
-  margin-left: 30px;
+}
+
+h4{
+  font-family: Ubuntu;
+  color: #081472;
+  padding-left: 30px;
+}
+.lyrics h5 {
+  font-family: Rufina;
+  font-type: normal;
+  font-style: italic;
+  color: #081472;
+  padding-left: 30px;
+  padding-top: 20px;
 }
 .panel {
   background: #717dd7;
   border: 1px solid #081472;
 }
+.panel > :first-child {
+  margin-top: 0;
+  padding-left: 90px;
+}
 
 p {
   font-family: Rufina;
   color: #081472;
+}
+.contact a {
+  padding: 30px;
 }
 
 
