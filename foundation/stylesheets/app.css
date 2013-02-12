@@ -13,7 +13,8 @@
    Shared Styles
 ----------------------------------------- */
 header {
-  margin:10px;
+  margin-top:10px;
+  margin-left: 120px;
 }
 h1 { 
   color: #081472;
@@ -30,11 +31,32 @@ h1 {
   margin-top:10px;
 }
 
+.btn {
+  background-color: #717dd7;
+  border: 1px solid #081472;
+  margin-top:10px;
+}
+
+.btn-bottom {
+  background-color: #717dd7;
+  border: 1px solid #081472;
+  margin-top:10px;
+  margin-left: 45px;
+}
 #featured img {
   height: 350px;
   width: 350px;
   padding: 50px;
 }
+
+a.left.carousel-control {
+  left: 5px;
+}
+
+a.right.carousel-control {
+  right: -45px;
+}
+
 
 h3 {
   font-family: Ubuntu;
@@ -47,6 +69,7 @@ h4{
   color: #081472;
   padding-left: 30px;
 }
+
 .lyrics h5 {
   font-family: Rufina;
   font-type: normal;
@@ -55,13 +78,34 @@ h4{
   padding-left: 30px;
   padding-top: 20px;
 }
+
+.lyrics-bs {
+  margin: 20px
+}
+
+.lyrics-bs h5 {
+  font-family: Rufina;
+  font-type: normal;
+  font-style: italic;
+  color: #081472;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+span4 offset2 {
+  padding: 0 15px;  
+}
+
 .panel {
   background: #717dd7;
   border: 1px solid #081472;
 }
-.panel > :first-child {
-  margin-top: 0;
-  padding-left: 90px;
+
+.panel-bs {
+  background: #717dd7;
+  border: 1px solid #081472;
+  margin: 10px;
+  padding: 15px;
 }
 
 p {
