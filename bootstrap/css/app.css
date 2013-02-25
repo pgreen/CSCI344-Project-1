@@ -13,7 +13,8 @@
    Shared Styles
 ----------------------------------------- */
 header {
-  margin:10px;
+  margin-top:10px;
+  margin-left: 120px;
 }
 
 h1 { 
@@ -28,6 +29,12 @@ h1 {
 .button.success {
   background-color: #717dd7;
   border: 1px solid #081472;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #717dd7;
+  border: 1px solid #081472;
   margin-top:10px;
 }
 
@@ -35,6 +42,14 @@ h1 {
   height: 350px;
   width: 350px;
   padding: 50px;
+}
+
+a.left.carousel-control {
+  left: 5px;
+}
+
+a.right.carousel-control {
+  right: -45px;
 }
 
 h3 {
@@ -48,6 +63,7 @@ h4{
   color: #081472;
   padding-left: 30px;
 }
+
 .lyrics h5 {
   font-family: Rufina;
   font-type: normal;
@@ -56,22 +72,67 @@ h4{
   padding-left: 30px;
   padding-top: 20px;
 }
+
+.lyrics-bs {
+  margin: 20px
+}
+
+.lyrics-bs h5 {
+  font-family: Rufina;
+  font-type: normal;
+  font-style: italic;
+  color: #081472;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+span4 offset2 {
+  padding: 0 15px;  
+}
+
 .panel {
   background: #717dd7;
   border: 1px solid #081472;
 }
-.span12{
-  margin-top: 0;
-  padding-left: 90px;
+
+.panel-bs {
+  background: #717dd7;
+  border: 1px solid #081472;
+  margin: 10px;
+  padding: 15px;
+}
+
+.panel-about {
+  background: #717dd7;
+  border: 1px solid #081472;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 
 p {
   font-family: Rufina;
   color: #081472;
 }
+
+.contact-about {
+  font-family: Rufina;
+  color: #081472;
+  margin-left:40px;
+}
+
+.contact-about a {
+  padding: 36px;
+}
+
+.contact h4 {
+  padding-left: 40px;
+}
+
 .contact a {
   padding: 30px;
 }
+
 
 
 /* -----------------------------------------
